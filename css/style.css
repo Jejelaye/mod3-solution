@@ -1,7 +1,7 @@
 *{
     font-family: 'Helvetica', sans-serif;
     margin: 0; padding: 0;
-    background-color: #fff;
+     /*background-color: blue;*/
     color: #000;
     border: 0;
 }
@@ -24,12 +24,7 @@ main h2{
 button{
     color: #000;
 }
-#colNav {
-    background-color: cadetblue;
-}
-#colNav li{
-    background-color: cadetblue;
-}
+
 #colNav a{
     font-size: 1.6em;
     text-align: center;
@@ -38,8 +33,8 @@ button{
 #colNav a:hover{
     color: ;
 }
-section.row{
-    background-color: #2F3535;
+section div{
+    background-color: #F8F8F8;
 }
 
 
@@ -47,5 +42,11 @@ section.row{
     .des{
         height: 650px;
         overflow: hidden;
+    }
+    #colNav {
+    background-color: cadetblue;
+    }
+    #colNav li{
+        background-color: cadetblue;
     }
 }
